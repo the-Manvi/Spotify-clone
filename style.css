@@ -13,22 +13,23 @@ body{
 .main{
   display: flex;
   height: 100vh;
+  padding: 0.5rem;
 
 }
 .sidebar{
-  width:350px;
+  width:320px;
   border-radius: 1rem;
   background-color:black;
+  margin-right: 0.5rem;
 
 }
 .main-content{
-  flex:1;
+  flex: 1;
   border-radius: 1rem;
   overflow: auto;
-  background-color: #121212;
+  background-color:#121212;
 }
 .music-player{
-  background-color: #75e6da;
   position:fixed;
   bottom:0;
   width:100%;
@@ -64,3 +65,79 @@ a{
   font-size: 1rem;
   margin-left: 1rem;
 }
+.library{
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding:0.5rem 0.75rem;
+}
+.options{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lib-option img{
+  height:1.25rem;
+  width:1.25rem;
+}
+.icons{
+  font-size:1.15rem;
+  display: flex;
+
+}
+.icons i{
+  opacity: 0.7;
+  margin:1rem;
+}
+.icons i:hover{
+  opacity:1;
+}
+.boxes{
+  height:10rem;
+  background-color: #232323;
+  border-radius: 0.75rem;
+  margin:0.5rem 0 0.5rem 0;
+  padding:0.5rem 1rem;
+}
+.boxp1{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.boxp2{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.badge{
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding:0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height:2rem;
+  width: fit-content;
+}
+.sticky-nav{
+  position: sticky;
+  top:0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0.5rem 0 0.5rem 0;
+
+}
+.sticky-nav i{
+  margin:0.5rem;
+  opacity:0.75;
+
+}
+.sticky-nav i:hover{
+  opacity:1;
+}
+.sticky-nav-icon{
+  font-size: 2rem;
+}
+
