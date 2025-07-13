@@ -209,22 +209,39 @@ a{
   display: flex;
 
 }
+.img{
+  height:3.5rem;
+  width:3.5rem;
+  border-radius: 10%;
+  margin:1rem;
+}
+.song-info{
+  margin:0;
+  font-size: 0.9rem;
+}
+.song-info p{
+  margin:-1rem;
+  margin-left:0rem;
+}
+.song-info-icons {
+ 
+  margin:1.5rem;
+  gap:15px;
+  display: flex;
+  
+}
+.song-info-icons i{
+  font-size:1.1rem;
+   opacity:0.7;
+
+}
+.song-info-icons i:hover{
+  opacity: 1;
+  font-size: 1.20rem;
+}
 .player{
   width:50%
 
-}
-.control{
-  width:25%;
-  display:flex;
-  gap:12px;
-}
-.control i{
-  opacity:0.8;
-  
-}
-.control i:hover{
-  opacity:1;
-  font-size: 1.25rem;
 }
 
 .player-controls{
@@ -266,34 +283,18 @@ a{
   border-radius: 50%;
   margin-top: -6px;
 }
-
-.img{
-  height:3.5rem;
-  width:3.5rem;
-  border-radius: 10%;
-  margin:1rem;
+.control{
+  width:25%;
+  display:flex;
+  gap:12px;
 }
-.song-info{
-  margin:0;
-  font-size: 0.9rem;
-}
-.song-info p{
-  margin:-1rem;
-  margin-left:0rem;
-}
-.song-info-icons {
- 
-  margin:1.5rem;
-  gap:15px;
-  display: flex;
+.control i{
+  opacity:0.8;
   
 }
-.song-info-icons i{
-  font-size:1.1rem;
-   opacity:0.7;
+.control i:hover{
+  opacity:1;
+  font-size: 1.25rem;
+}
 
-}
-.song-info-icons i:hover{
-  opacity: 1;
-  font-size: 1.20rem;
-}
+
